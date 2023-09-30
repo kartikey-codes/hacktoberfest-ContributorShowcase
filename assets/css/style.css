@@ -1,0 +1,106 @@
+/* Hacktoberfest background color */
+body {
+    background: linear-gradient(to bottom, #FFA726, #FF5722);
+    color: #333;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.header {
+    background-color: #fff;
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    text-align: center;
+}
+
+.header h1 {
+    color: #FF5722;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.container {
+    max-width: 800px; /* Increase the maximum width */
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+}
+.container {
+    /* ... */
+    word-wrap: break-word; /* Allow words to wrap to the next line */
+}
+
+
+
+h2 {
+    color: #FF5722;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #F5F5F5;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    white-space: normal; /* Allow text to wrap within the list item */
+}
+
+
+button {
+    background-color: #FF5722;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #E64A19;
+}
+
+/* Smooth scrolling for anchor links */
+html {
+    scroll-behavior: smooth;
+}
+/* Remove default hyperlink styles */
+a {
+    color: inherit; /* Use the default text color */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s ease; /* Add a color transition */
+}
+
+/* Change link color on hover */
+a:hover {
+    color: #FF5722; /* Change color on hover (you can use any desired color) */
+}

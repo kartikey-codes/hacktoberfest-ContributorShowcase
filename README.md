@@ -1,6 +1,7 @@
 # Hacktoberfest Contributor Showcase
 
-Welcome to the Hacktoberfest Contributor Showcase! We invite you to add your profile to our list
+Welcome to the Hacktoberfest Contributor Showcase! We invite you to add your profile to our list.
+Use this project to make your first contribution to an open source project on GitHub. Practice making your first pull request to a public repository before doing the real thing!
 
 ## This Project Is Perfect For Your First Pull Request
 
@@ -18,8 +19,13 @@ Welcome to the Hacktoberfest Contributor Showcase! We invite you to add your pro
     ```bash
     git clone https://github.com/kartikey-codes/hacktoberfest-ContributorShowcase.git
     ```
+3.Create a branch
 
-3. Edit the `index.html` file to add your information to the list.
+```markdown
+git checkout -b branch-name
+```
+
+4. Edit the `index.html` file to add your information to the list.
 
    In the `index.html` file, you will find a section for contributors. Add your information in the following format:
 
@@ -29,20 +35,20 @@ Welcome to the Hacktoberfest Contributor Showcase! We invite you to add your pro
 
    Replace `Your Name` with your name, `Your Hobby` with your hobby or interest, and `your-github-username` with your GitHub username.
 
-4. Commit your changes with a meaningful message (e.g., "Added my profile"):
+5. Commit your changes with a meaningful message (e.g., "Added my profile"):
 
     ```bash
     git add index.html
     git commit -m "Added my profile"
     ```
 
-5. Push the changes to your GitHub repository:
+6. Push the changes to your GitHub repository:
 
     ```bash
     git push origin main
     ```
 
-6. Create a Pull Request (PR) from your forked repository to this main repository on GitHub.
+7. Create a Pull Request (PR) from your forked repository to this main repository on GitHub.
 
 To get approval of the pull request much quicker and faster, don't forget to star this repository to show your support!
 
